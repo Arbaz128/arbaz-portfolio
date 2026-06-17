@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useInView } from "framer-motion";
+import { Download } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 function Counter({ target, suffix }: { target: number; suffix: string }) {
@@ -87,6 +88,13 @@ export default function Hero() {
           className="grad-bg rounded-xl px-8 py-3.5 font-display font-semibold text-white shadow-[0_8px_30px_rgba(139,92,246,.35)] transition-all hover:-translate-y-1 hover:shadow-[0_14px_44px_rgba(139,92,246,.5)]"
         >
           View My Work →
+        </a>
+        <a
+          href="/resume.pdf"
+          download="Muhammad_Arbaz_Asif_Resume.pdf"
+          className="inline-flex items-center gap-2 rounded-xl border border-line px-8 py-3.5 font-display font-semibold text-white transition-all hover:-translate-y-1 hover:border-cyan"
+        >
+          <Download size={18} /> Download Résumé
         </a>
         <a
           href="#contact"

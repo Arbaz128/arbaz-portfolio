@@ -1,4 +1,4 @@
-import { MessageCircle, Mail } from "lucide-react";
+import { MessageCircle, Mail, Download } from "lucide-react";
 import Reveal from "./Reveal";
 
 function LinkedInIcon() {
@@ -71,6 +71,13 @@ export default function Cta() {
               className="inline-flex items-center gap-2.5 rounded-xl border border-line px-8 py-3.5 font-display font-semibold text-white transition-all hover:-translate-y-1 hover:border-cyan"
             >
               <LinkedInIcon /> LinkedIn
+            </a>
+            <a
+              href="/resume.pdf"
+              download="Muhammad_Arbaz_Asif_Resume.pdf"
+              className="inline-flex items-center gap-2.5 rounded-xl border border-line px-8 py-3.5 font-display font-semibold text-white transition-all hover:-translate-y-1 hover:border-cyan"
+            >
+              <Download size={20} /> Download Résumé
             </a>
           </div>
         </div>

@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Muhammad Arbaz Asif — Résumé</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 11mm 13mm;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --navy: #122c4f;
+        --ink: #1d1d1f;
+        --muted: #525560;
+        --rule: #c9cdd6;
+      }
+
+      html {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      body {
+        font-family: Calibri, "Segoe UI", Arial, sans-serif;
+        font-size: 9.4pt;
+        line-height: 1.29;
+        color: var(--ink);
+      }
+
+      /* ---------- Header ---------- */
+      header {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1.6px solid var(--navy);
+      }
+
+      h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 23pt;
+        font-weight: 700;
+        letter-spacing: 1.6px;
+        color: var(--navy);
+        text-transform: uppercase;
+      }
+
+      .title {
+        margin-top: 3px;
+        font-size: 10.5pt;
+        letter-spacing: 0.6px;
+        color: var(--muted);
+        font-weight: 600;
+      }
+
+      .contact {
+        margin-top: 6px;
+        font-size: 9.2pt;
+        color: var(--ink);
+      }
+
+      .contact a {
+        color: var(--navy);
+        text-decoration: none;
+      }
+
+      .sep {
+        color: var(--rule);
+        margin: 0 6px;
+      }
+
+      /* ---------- Sections ---------- */
+      section {
+        margin-top: 6px;
+      }
+
+      h2 {
+        font-size: 10.1pt;
+        font-weight: 700;
+        letter-spacing: 1.3px;
+        text-transform: uppercase;
+        color: var(--navy);
+        border-bottom: 1px solid var(--rule);
+        padding-bottom: 2px;
+        margin-bottom: 5px;
+        break-after: avoid;
+      }
+
+      .summary {
+        text-align: justify;
+      }
+
+      /* ---------- Skills ---------- */
+      .skills {
+        display: grid;
+        grid-template-columns: 84px 1fr;
+        row-gap: 3px;
+        column-gap: 8px;
+      }
+
+      .skills dt {
+        font-weight: 700;
+        color: var(--navy);
+      }
+
+      /* ---------- Entries ---------- */
+      .entry {
+        margin-bottom: 7px;
+        break-inside: avoid;
+      }
+
+      .entry:last-child {
+        margin-bottom: 0;
+      }
+
+      .entry-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+
+      .role {
+        font-weight: 700;
+        font-size: 10.6pt;
+      }
+
+      .role .org {
+        color: var(--navy);
+      }
+
+      .date {
+        font-size: 9.2pt;
+        font-style: italic;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      ul {
+        list-style: square;
+        margin-top: 3px;
+        padding-left: 16px;
+      }
+
+      li {
+        margin-bottom: 1.5px;
+        padding-left: 2px;
+      }
+
+      li::marker {
+        color: var(--navy);
+        font-size: 8.5pt;
+      }
+
+      /* ---------- Projects ---------- */
+      .proj-title {
+        font-weight: 700;
+        font-size: 10.4pt;
+      }
+
+      .proj-stack {
+        font-style: italic;
+        color: var(--muted);
+        font-weight: 400;
+        font-size: 9.4pt;
+      }
+
+      /* ---------- Two-line compact rows ---------- */
+      .edu-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+        margin-bottom: 5px;
+        break-inside: avoid;
+      }
+
+      .edu-row:last-child {
+        margin-bottom: 0;
+      }
+
+      .edu-deg {
+        font-weight: 700;
+      }
+
+      .edu-sub {
+        color: var(--muted);
+        font-size: 9.6pt;
+      }
+
+      .inline-list {
+        line-height: 1.55;
+      }
+
+      .inline-list b {
+        color: var(--navy);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Muhammad Arbaz Asif</h1>
+      <div class="title">Full Stack Developer · AI Integration · Remote</div>
+      <div class="contact">
+        +92 300 4339095 <span class="sep">|</span>
+        <a href="mailto:a4arbazchaudhary@gmail.com">a4arbazchaudhary@gmail.com</a>
+        <span class="sep">|</span> Lahore, Pakistan
+        <br />
+        <a href="https://www.linkedin.com/in/muhammad-arbaz-asif-5316b225b/"
+          >linkedin.com/in/muhammad-arbaz-asif-5316b225b</a
+        >
+        <span class="sep">|</span>
+        <a href="https://arbaz-portfolio-kappa.vercel.app"
+          >arbaz-portfolio-kappa.vercel.app</a
+        >
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p class="summary">
+        Full Stack Developer with 1.5+ years of production experience shipping
+        B2B SaaS products remotely. At Techfy, built and maintained Floww (social
+        media automation with Meta Graph API) and Click2Deploy (cloud deployment
+        with Stripe billing). Proficient in Next.js, NestJS, TypeScript,
+        PostgreSQL, and AI/LLM integration. Available for international remote
+        roles and Dubai relocation — comfortable overlapping EST/GST working
+        hours.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <dl class="skills">
+        <dt>Frontend</dt>
+        <dd>
+          Next.js, React.js, TypeScript, JavaScript ES6+, Redux Toolkit, Tailwind
+          CSS, Material UI
+        </dd>
+        <dt>Backend</dt>
+        <dd>
+          Node.js, Express.js, NestJS, REST APIs, WebSockets, JWT, RBAC, OAuth
+          2.0
+        </dd>
+        <dt>Database</dt>
+        <dd>PostgreSQL, MongoDB, MySQL, Prisma ORM, Neon Console</dd>
+        <dt>AI / LLM</dt>
+        <dd>
+          Claude (Anthropic), OpenAI APIs, Prompt Engineering, Agentic Workflows,
+          n8n
+        </dd>
+        <dt>Integrations</dt>
+        <dd>
+          Stripe (Subscriptions, Webhooks), Meta Graph API (Instagram &
+          Facebook), SendGrid
+        </dd>
+        <dt>Tools</dt>
+        <dd>Vercel, Git, GitHub, Postman, ClickUp, Docker (basic)</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <div class="role">
+            Associate Software Engineer · <span class="org">Techfy</span> (Remote)
+          </div>
+          <div class="date">Dec 2024 – Present</div>
+        </div>
+        <ul>
+          <li>
+            Built and shipped features across two live B2B SaaS products — Floww
+            (social media automation) and Click2Deploy (cloud deployment) —
+            serving real paying customers.
+          </li>
+          <li>
+            Integrated the Meta Graph API for Instagram &amp; Facebook automation:
+            DM triggers, comment replies, story mentions, and webhook
+            deduplication via canonical ID matching.
+          </li>
+          <li>
+            Implemented Stripe subscriptions, billing webhooks, and plan upgrade
+            flows; fixed a production planId sync bug in Click2Deploy.
+          </li>
+          <li>
+            Built a React Flow visual automation builder with dynamic edge
+            management, orphaned-node pruning, and PostgreSQL cascade deletes.
+          </li>
+          <li>
+            Resolved critical production bugs: localStorage cross-tab
+            contamination across 51 files, prefetch-on-boot latency architecture,
+            and Facebook/Instagram DM deduplication.
+          </li>
+          <li>
+            Integrated Claude and OpenAI-compatible APIs to build agentic
+            workflows, automation triggers, and AI-powered features in NestJS.
+          </li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <div class="role">
+            Software Engineer Intern · <span class="org">Ashwiz</span>
+          </div>
+          <div class="date">May 2024 – Aug 2024</div>
+        </div>
+        <ul>
+          <li>
+            Developed responsive full-stack web apps using React.js, Node.js,
+            Express.js, and MongoDB.
+          </li>
+          <li>
+            Built and integrated RESTful APIs; participated in code reviews,
+            debugging, and Git-based version control.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Projects</h2>
+
+      <div class="entry">
+        <div class="proj-title">
+          Floww — Social Media Automation SaaS
+          <span class="proj-stack">
+            · Next.js · NestJS · PostgreSQL · Meta Graph API</span
+          >
+        </div>
+        <ul>
+          <li>
+            Production B2B SaaS: keyword triggers, DM flows, comment-reply
+            automation, and email-gate sequences for Instagram &amp; Facebook.
+          </li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="proj-title">
+          Click2Deploy — Cloud Deployment SaaS
+          <span class="proj-stack">
+            · Next.js · NestJS · PostgreSQL · Stripe</span
+          >
+        </div>
+        <ul>
+          <li>
+            Multi-tenant deployment platform with Stripe billing, plan-access
+            control, and prefetch-on-boot latency optimization.
+          </li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="proj-title">
+          Toolrift — AI Tools Platform
+          <span class="proj-stack"> · Next.js · Neon · Groq API</span>
+        </div>
+        <ul>
+          <li>
+            Launched a 50+ AI tools aggregator on Product Hunt with a zero-cost
+            serverless architecture.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="edu-row">
+        <div>
+          <div class="edu-deg">BS (Lateral) Computer Science</div>
+          <div class="edu-sub">Virtual University of Pakistan</div>
+        </div>
+        <div class="date">2026 – Present</div>
+      </div>
+      <div class="edu-row">
+        <div>
+          <div class="edu-deg">Bachelor of Science in Computer Science</div>
+          <div class="edu-sub">
+            Government Islamia College Civil Lines, Lahore · University of the
+            Punjab
+          </div>
+        </div>
+        <div class="date">2023 – 2025</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications &amp; Languages</h2>
+      <div class="inline-list">
+        <b>Web Development</b> — Ideoversity (2023)<span class="sep">|</span>
+        <b>Advanced Python Programming</b> — PNY &amp; Pearson (2025)<br />
+        <b>English</b> (Professional Working Proficiency)<span class="sep">|</span>
+        <b>Urdu</b> (Native)
+      </div>
+    </section>
+
+    <section>
+      <h2>Availability</h2>
+      <div class="inline-list">
+        Open to International Remote · Dubai/UAE Relocation · Pakistan-based
+        Positions <span class="sep">|</span> Available immediately
+        <span class="sep">|</span> EST, PST, GST, GMT overlap hours
+      </div>
+    </section>
+  </body>
+</html>
