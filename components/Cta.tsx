@@ -22,7 +22,7 @@ const LINKEDIN_URL =
 
 export default function Cta() {
   return (
-    <section id="contact" className="relative z-10 mx-auto max-w-7xl px-6 py-28">
+    <section id="contact" className="relative z-10 mx-auto max-w-7xl px-6 py-20 md:py-28">
       <Reveal>
         <div className="relative overflow-hidden rounded-[32px] border border-violet/25 bg-gradient-to-br from-cyan/10 via-violet/10 to-pink/10 px-8 py-20 text-center md:py-24">
           <div
@@ -33,7 +33,7 @@ export default function Cta() {
                 "radial-gradient(circle, rgba(139,92,246,.22), transparent 65%)",
             }}
           />
-          <h2 className="relative font-display text-4xl font-bold tracking-tight md:text-5xl">
+          <h2 className="relative font-display text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
             Let&apos;s <span className="grad-text">work together.</span>
           </h2>
           <p className="relative mx-auto mt-6 max-w-xl leading-relaxed text-muted">

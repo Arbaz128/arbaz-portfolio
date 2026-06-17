@@ -31,7 +31,7 @@ export default function UseCases() {
   return (
     <section
       id="education"
-      className="relative z-10 mx-auto max-w-7xl px-6 py-28"
+      className="relative z-10 mx-auto max-w-7xl px-6 py-20 md:py-28"
     >
       <Reveal>
         <span className="inline-block rounded-full border border-cyan/30 bg-cyan/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-cyan">
@@ -39,7 +39,7 @@ export default function UseCases() {
         </span>
       </Reveal>
       <Reveal delay={0.1}>
-        <h2 className="mt-5 max-w-3xl font-display text-4xl font-bold leading-tight tracking-tight md:text-5xl">
+        <h2 className="mt-5 max-w-3xl font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl">
           Always <span className="grad-text">learning.</span>
         </h2>
       </Reveal>

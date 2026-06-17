@@ -32,14 +32,14 @@ export default function Faq() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="relative z-10 mx-auto max-w-7xl px-6 py-28">
+    <section id="faq" className="relative z-10 mx-auto max-w-7xl px-6 py-20 md:py-28">
       <Reveal>
         <span className="inline-block rounded-full border border-cyan/30 bg-cyan/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-cyan">
           FAQ
         </span>
       </Reveal>
       <Reveal delay={0.1}>
-        <h2 className="mt-5 font-display text-4xl font-bold tracking-tight md:text-5xl">
+        <h2 className="mt-5 font-display text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
           Questions? <span className="grad-text">Answered.</span>
         </h2>
       </Reveal>

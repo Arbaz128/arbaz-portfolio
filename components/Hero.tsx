@@ -44,7 +44,7 @@ const STATS = [
 
 export default function Hero() {
   return (
-    <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pb-20 pt-36 text-center">
+    <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pb-20 pt-28 text-center sm:pt-36">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -59,7 +59,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 34 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.15 }}
-        className="max-w-5xl font-display text-5xl font-bold leading-[1.06] tracking-tight md:text-7xl"
+        className="max-w-5xl font-display text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl sm:leading-[1.06] md:text-7xl"
       >
         Hi, I&apos;m Arbaz — I build{" "}
         <span className="grad-text">production SaaS</span> end to end.
@@ -108,7 +108,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 34 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
-        className="mt-20 flex flex-wrap justify-center gap-12 md:gap-20"
+        className="mt-16 flex flex-wrap justify-center gap-10 md:mt-20 md:gap-20"
       >
         {STATS.map((s) => (
           <div key={s.label} className="max-w-[220px]">
