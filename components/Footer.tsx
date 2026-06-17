@@ -4,12 +4,12 @@ const LINKEDIN_URL =
 export default function Footer() {
   return (
     <footer className="relative z-10 mt-10 border-t border-line">
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-5 px-6 py-12">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-6 py-10 text-center md:flex-row md:justify-between md:gap-5 md:py-12 md:text-left">
         <p className="text-sm text-muted">
           © {new Date().getFullYear()} Muhammad Arbaz Asif — Full Stack
           Developer. Built with Next.js.
         </p>
-        <div className="flex gap-7">
+        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
           <a
             href="#projects"
             className="text-sm text-muted transition-colors hover:text-white"
