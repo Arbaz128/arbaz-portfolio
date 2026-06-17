@@ -7,11 +7,14 @@ const ROLES = [
     mode: "Remote",
     period: "Dec 2024 – Present",
     points: [
-      "Built and shipped features across two live B2B SaaS products — Floww (social media automation) and Click2Deploy (cloud deployment) — serving real paying customers.",
-      "Integrated the Meta Graph API for Instagram & Facebook automation: DM triggers, comment replies, story mentions and webhook deduplication via canonical ID matching.",
-      "Implemented Stripe subscriptions, billing webhooks and plan-upgrade flows; fixed a production planId sync bug in Click2Deploy.",
-      "Built a React flow visual automation builder with dynamic edge management, orphaned-node pruning and PostgreSQL cascade deletes.",
-      "Integrated Claude and OpenAI-compatible APIs to build agentic workflows, automation triggers and AI-powered features in NestJS.",
+      "Engineer and maintain two live B2B SaaS products — Floww (social media automation) and Click2Deploy (cloud deployment) — used by real paying customers, building features from scratch through deployment on Vercel.",
+      "Integrated the Meta Graph API for Instagram & Facebook automation: DM triggers, comment-reply automation, story-mention handling and webhook deduplication via canonical ID matching.",
+      "Implemented Stripe subscriptions, billing webhooks and plan upgrade/downgrade flows; fixed a critical production bug where subscription upgrades weren't syncing to the database.",
+      "Built a React Flow visual automation builder with dynamic node/edge management, orphaned-node pruning and PostgreSQL cascade deletes.",
+      "Implemented JWT-based auth, RBAC and multi-tenant data isolation across both SaaS products.",
+      "Integrated AI/LLM APIs (Claude, OpenAI-compatible) to build agentic workflows, smart automation triggers and AI-powered feature modules.",
+      "Resolved complex production bugs — including localStorage cross-tab contamination fixed across 51 files, and prefetch-on-boot latency measurement.",
+      "Collaborated with UI/UX, QA and product teams in an agile workflow using ClickUp and Airtable.",
     ],
   },
   {
@@ -20,8 +23,10 @@ const ROLES = [
     mode: "On-site",
     period: "May 2024 – Aug 2024",
     points: [
-      "Developed responsive full-stack web apps using React.js, Node.js, Express.js and MongoDB.",
-      "Built and integrated RESTful APIs; participated in code reviews, debugging and Git-based version control.",
+      "Contributed to responsive, full-stack web applications using React.js, Node.js, Express.js and MongoDB.",
+      "Built and integrated RESTful APIs and implemented front-end to back-end communication; assisted with database design.",
+      "Participated in bug fixing, code reviews, testing and deployment workflows under senior-developer guidance.",
+      "Applied Git/GitHub version-control best practices in a collaborative team environment.",
     ],
   },
 ];

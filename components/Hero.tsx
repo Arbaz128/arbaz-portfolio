@@ -70,10 +70,10 @@ export default function Hero() {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted"
       >
-        Full Stack Developer with 1.5+ years shipping real B2B SaaS products
-        remotely. I work across the stack with Next.js, NestJS, TypeScript and
-        PostgreSQL — and bring AI/LLM integration that actually ships to
-        production.
+        Full Stack Developer &amp; AI Integration Specialist with 1.5+ years
+        shipping real B2B SaaS products. Currently at Techfy, building Floww and
+        Click2Deploy with Next.js, NestJS, TypeScript and PostgreSQL — for real
+        paying customers.
       </motion.p>
 
       <motion.div

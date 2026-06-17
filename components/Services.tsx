@@ -15,37 +15,37 @@ const SERVICES = [
   {
     icon: LayoutTemplate,
     title: "Frontend Development",
-    desc: "Responsive, fast interfaces built with Next.js, React and TypeScript. Redux Toolkit for state, Tailwind CSS and Material UI for polished, accessible UI.",
+    desc: "Responsive, fast interfaces with React, Next.js and TypeScript (ES6+). Redux Toolkit for state, Tailwind CSS and Material UI for polished, accessible UI — HTML5/CSS3 fundamentals throughout.",
     tag: "NEXT.JS · REACT · TS →",
   },
   {
     icon: Server,
     title: "Backend & APIs",
-    desc: "Production APIs with Node.js, Express and NestJS — REST and WebSockets, secured with JWT, RBAC and OAuth 2.0. Designed for real paying customers.",
+    desc: "Production APIs with Node.js, Express and NestJS — REST and WebSockets, secured with JWT, RBAC and OAuth 2.0. Multi-tenant data isolation built in.",
     tag: "NESTJS · REST · WS →",
   },
   {
     icon: Database,
     title: "Databases",
-    desc: "Data modelling and queries across PostgreSQL, MongoDB and MySQL with Prisma ORM. Comfortable with Neon Console and cascade-safe schema design.",
+    desc: "Schema design and query optimization across PostgreSQL (Neon Console), MongoDB and MySQL with Prisma ORM — including cascade-safe relations.",
     tag: "POSTGRES · PRISMA →",
   },
   {
     icon: Bot,
     title: "AI / LLM Integration",
-    desc: "Shipping AI to production — Claude (Anthropic) and OpenAI APIs, prompt engineering, agentic workflows and automation pipelines with n8n.",
+    desc: "Shipping AI to production — Claude (Anthropic) and OpenAI-compatible APIs, prompt engineering, multi-step agentic workflows and automation pipelines with n8n.",
     tag: "CLAUDE · OPENAI →",
   },
   {
     icon: CreditCard,
     title: "Integrations & Payments",
-    desc: "Stripe subscriptions, billing and webhooks; Meta Graph API for Instagram & Facebook automation; transactional email with SendGrid.",
+    desc: "Stripe subscriptions, billing and webhooks; Meta Graph API for Instagram & Facebook automation; transactional messaging with Twilio and SendGrid.",
     tag: "STRIPE · META API →",
   },
   {
     icon: Wrench,
     title: "Tooling & DevOps",
-    desc: "Vercel deployments, Git/GitHub workflows, Postman, ClickUp and Docker basics — built to ship features fast and keep them stable.",
+    desc: "Vercel deployments, Git/GitHub, Postman, Linux CLI and Docker basics; agile delivery with ClickUp and Airtable — built to ship fast and stay stable.",
     tag: "VERCEL · DOCKER →",
   },
 ];
