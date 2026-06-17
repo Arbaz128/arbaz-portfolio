@@ -77,7 +77,7 @@ export default function Cta() {
               download="Muhammad_Arbaz_Asif_Resume.pdf"
               className="inline-flex items-center gap-2.5 rounded-xl border border-line px-8 py-3.5 font-display font-semibold text-white transition-all hover:-translate-y-1 hover:border-cyan"
             >
-              <Download size={20} /> Download Résumé
+              <Download size={20} /> Download Resume
             </a>
           </div>
         </div>

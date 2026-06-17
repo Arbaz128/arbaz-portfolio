@@ -72,9 +72,9 @@ export default function Hero() {
         className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted"
       >
         Full Stack Developer &amp; AI Integration Specialist with 1.5+ years
-        shipping real B2B SaaS products. Currently at Techfy, building Floww and
-        Click2Deploy with Next.js, NestJS, TypeScript and PostgreSQL — for real
-        paying customers.
+        shipping real B2B SaaS products. Currently building Click2Deploy at
+        Techfy, and shipped Floww — a social-media automation SaaS — as a
+        freelance project, with Next.js, NestJS, TypeScript and PostgreSQL.
       </motion.p>
 
       <motion.div
@@ -94,7 +94,7 @@ export default function Hero() {
           download="Muhammad_Arbaz_Asif_Resume.pdf"
           className="inline-flex items-center gap-2 rounded-xl border border-line px-8 py-3.5 font-display font-semibold text-white transition-all hover:-translate-y-1 hover:border-cyan"
         >
-          <Download size={18} /> Download Résumé
+          <Download size={18} /> Download Resume
         </a>
         <a
           href="#contact"

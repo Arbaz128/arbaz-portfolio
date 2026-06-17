@@ -30,7 +30,7 @@
       body {
         font-family: Calibri, "Segoe UI", Arial, sans-serif;
         font-size: 9.4pt;
-        line-height: 1.29;
+        line-height: 1.26;
         color: var(--ink);
       }
 
@@ -76,7 +76,7 @@
 
       /* ---------- Sections ---------- */
       section {
-        margin-top: 6px;
+        margin-top: 5px;
       }
 
       h2 {
@@ -163,6 +163,20 @@
         font-size: 10.4pt;
       }
 
+      .proj-tag {
+        display: inline-block;
+        font-size: 7.6pt;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #fff;
+        background: var(--navy);
+        border-radius: 3px;
+        padding: 1px 6px;
+        margin-left: 5px;
+        vertical-align: 1.5px;
+      }
+
       .proj-stack {
         font-style: italic;
         color: var(--muted);
@@ -225,12 +239,13 @@
       <h2>Professional Summary</h2>
       <p class="summary">
         Full Stack Developer with 1.5+ years of production experience shipping
-        B2B SaaS products remotely. At Techfy, built and maintained Floww (social
-        media automation with Meta Graph API) and Click2Deploy (cloud deployment
-        with Stripe billing). Proficient in Next.js, NestJS, TypeScript,
-        PostgreSQL, and AI/LLM integration. Available for international remote
-        roles and Dubai relocation — comfortable overlapping EST/GST working
-        hours.
+        B2B SaaS products remotely. Currently at Techfy, building and maintaining
+        Click2Deploy — a multi-tenant cloud-deployment SaaS with Stripe billing.
+        Independently designed and shipped Floww, a social-media automation
+        platform built on the Meta Graph API, as a freelance project. Proficient
+        in Next.js, NestJS, TypeScript, PostgreSQL, and AI/LLM integration.
+        Available for international remote roles and Dubai relocation —
+        comfortable overlapping EST/GST working hours.
       </p>
     </section>
 
@@ -276,31 +291,26 @@
         </div>
         <ul>
           <li>
-            Built and shipped features across two live B2B SaaS products — Floww
-            (social media automation) and Click2Deploy (cloud deployment) —
-            serving real paying customers.
+            Build and maintain Click2Deploy, a live multi-tenant B2B
+            cloud-deployment SaaS serving real paying customers.
           </li>
           <li>
-            Integrated the Meta Graph API for Instagram &amp; Facebook automation:
-            DM triggers, comment replies, story mentions, and webhook
-            deduplication via canonical ID matching.
+            Implemented Stripe subscriptions, billing webhooks, and plan
+            upgrade/downgrade flows; fixed a production planId sync bug where
+            subscription upgrades weren't reflected in the database.
           </li>
           <li>
-            Implemented Stripe subscriptions, billing webhooks, and plan upgrade
-            flows; fixed a production planId sync bug in Click2Deploy.
+            Built plan-based access control with JWT authentication, RBAC, and
+            multi-tenant data isolation.
           </li>
           <li>
-            Built a React Flow visual automation builder with dynamic edge
-            management, orphaned-node pruning, and PostgreSQL cascade deletes.
+            Engineered a prefetch-on-boot latency architecture (global cache +
+            localStorage TTL) and resolved localStorage cross-tab contamination
+            across 51 files via a URL-prefixed storage utility.
           </li>
           <li>
-            Resolved critical production bugs: localStorage cross-tab
-            contamination across 51 files, prefetch-on-boot latency architecture,
-            and Facebook/Instagram DM deduplication.
-          </li>
-          <li>
-            Integrated Claude and OpenAI-compatible APIs to build agentic
-            workflows, automation triggers, and AI-powered features in NestJS.
+            Collaborated with UI/UX, QA, and product teams in an agile workflow
+            using ClickUp and Airtable.
           </li>
         </ul>
       </div>
@@ -331,14 +341,26 @@
       <div class="entry">
         <div class="proj-title">
           Floww — Social Media Automation SaaS
+          <span class="proj-tag">Freelance</span>
           <span class="proj-stack">
             · Next.js · NestJS · PostgreSQL · Meta Graph API</span
           >
         </div>
         <ul>
           <li>
-            Production B2B SaaS: keyword triggers, DM flows, comment-reply
-            automation, and email-gate sequences for Instagram &amp; Facebook.
+            Designed and shipped an end-to-end social-media automation SaaS on
+            the Meta Graph API — keyword triggers, DM flows, comment-reply
+            automation, story mentions, and email-gate sequences for Instagram
+            &amp; Facebook.
+          </li>
+          <li>
+            Built a React Flow visual automation builder with dynamic edge
+            management, orphaned-node pruning, and PostgreSQL cascade deletes;
+            webhook deduplication via canonical ID matching.
+          </li>
+          <li>
+            Integrated Claude and OpenAI-compatible APIs for agentic workflows and
+            AI-powered automation features in NestJS.
           </li>
         </ul>
       </div>
@@ -346,6 +368,7 @@
       <div class="entry">
         <div class="proj-title">
           Click2Deploy — Cloud Deployment SaaS
+          <span class="proj-tag">Techfy</span>
           <span class="proj-stack">
             · Next.js · NestJS · PostgreSQL · Stripe</span
           >

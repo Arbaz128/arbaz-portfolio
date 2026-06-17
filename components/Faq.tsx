@@ -20,7 +20,7 @@ const FAQS = [
   },
   {
     q: "How much production experience do you have?",
-    a: "1.5+ years shipping live B2B SaaS products at Techfy — Floww and Click2Deploy — serving real paying customers, plus an internship at Ashwiz building full-stack web apps.",
+    a: "1.5+ years shipping production B2B SaaS — Click2Deploy at Techfy, and Floww (a social-media automation SaaS) as a freelance project — serving real paying customers, plus an internship at Ashwiz building full-stack web apps.",
   },
   {
     q: "Can you handle AI/LLM features end to end?",
