@@ -84,7 +84,7 @@ const jsonLd = {
     addressLocality: "Lahore",
     addressCountry: "PK",
   },
-  sameAs: ["https://www.linkedin.com/in/muhammad-arbaz-asif-5316b225b/"],
+  sameAs: ["https://www.linkedin.com/in/muhammad-arbaz-asif/"],
   knowsAbout: [
     "Next.js",
     "NestJS",

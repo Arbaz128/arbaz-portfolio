@@ -18,7 +18,7 @@ function LinkedInIcon() {
 const WHATSAPP_NUMBER = "923004339095";
 const EMAIL = "a4arbazchaudhary@gmail.com";
 const LINKEDIN_URL =
-  "https://www.linkedin.com/in/muhammad-arbaz-asif-5316b225b/";
+  "https://www.linkedin.com/in/muhammad-arbaz-asif/";
 
 export default function Cta() {
   return (
