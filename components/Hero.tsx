@@ -52,7 +52,7 @@ export default function Hero() {
         className="mb-9 inline-flex items-center gap-2.5 rounded-full border border-line bg-white/5 px-5 py-2 text-sm text-muted"
       >
         <span className="pulse-dot h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_12px_#34d399]" />
-        Available for remote roles · Open to Dubai/UAE relocation
+        Open to on-site, hybrid &amp; remote · Dubai/UAE relocation
       </motion.div>
 
       <motion.h1

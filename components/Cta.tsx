@@ -37,9 +37,9 @@ export default function Cta() {
             Let&apos;s <span className="grad-text">work together.</span>
           </h2>
           <p className="relative mx-auto mt-6 max-w-xl leading-relaxed text-muted">
-            Open to remote roles, Dubai/UAE relocation and freelance work. If
-            you&apos;re building something and need a full stack developer who
-            ships to production — let&apos;s talk.
+            Open to on-site, hybrid and remote roles, Dubai/UAE relocation, and
+            freelance work. If you&apos;re building something and need a full
+            stack developer who ships to production — let&apos;s talk.
           </p>
           <div className="relative mt-10 flex flex-wrap justify-center gap-4">
             <a

@@ -8,7 +8,7 @@ import Reveal from "./Reveal";
 const FAQS = [
   {
     q: "Are you available for new roles?",
-    a: "Yes — I'm available immediately and open to international remote positions, Dubai/UAE relocation, and Pakistan-based roles.",
+    a: "Yes — I'm available immediately and open to on-site, hybrid and remote roles: international remote positions, Dubai/UAE relocation, and on-site/Pakistan-based positions.",
   },
   {
     q: "What time zones can you work in?",
