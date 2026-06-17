@@ -37,7 +37,7 @@ export default function Work() {
     <section id="projects" className="relative z-10 mx-auto max-w-7xl px-6 py-28">
       <Reveal>
         <span className="inline-block rounded-full border border-cyan/30 bg-cyan/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-cyan">
-          Projects
+          Selected Projects
         </span>
       </Reveal>
       <Reveal delay={0.1}>
@@ -47,9 +47,10 @@ export default function Work() {
       </Reveal>
       <Reveal delay={0.2}>
         <p className="mt-5 max-w-2xl leading-relaxed text-muted">
-          Products I&apos;ve engineered and shipped to production — from B2B SaaS
-          platforms to AI tools and e-commerce. Click any of them, they&apos;re
-          live.
+          A few highlights from the products I&apos;ve engineered and shipped to
+          production — across B2B SaaS, AI tools and e-commerce. These are just a
+          selection; I&apos;ve delivered many more freelance, client and personal
+          projects. Click any of them — they&apos;re live.
         </p>
       </Reveal>
 
@@ -86,6 +87,24 @@ export default function Work() {
           </Reveal>
         ))}
       </div>
+
+      <Reveal delay={0.1}>
+        <div className="mt-10 flex flex-col items-center justify-between gap-4 rounded-2xl border border-line bg-card px-8 py-6 text-center sm:flex-row sm:text-left">
+          <p className="text-sm leading-relaxed text-muted">
+            <span className="font-semibold text-white">
+              And plenty more.
+            </span>{" "}
+            Beyond these highlights, I&apos;ve shipped a range of other freelance,
+            client and personal builds — happy to walk you through them.
+          </p>
+          <a
+            href="#contact"
+            className="shrink-0 rounded-xl border border-line px-6 py-3 font-display text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:border-cyan"
+          >
+            Ask me about more →
+          </a>
+        </div>
+      </Reveal>
     </section>
   );
 }
