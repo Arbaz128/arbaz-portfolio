@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://new-portfolio-six-azure.vercel.app/sitemap.xml",
+    sitemap: "https://arbaz-portfolio-kappa.vercel.app/sitemap.xml",
   };
 }

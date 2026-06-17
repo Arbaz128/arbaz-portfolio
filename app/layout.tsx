@@ -12,7 +12,7 @@ const grotesk = Space_Grotesk({
   subsets: ["latin"],
 });
 
-const SITE_URL = "https://new-portfolio-six-azure.vercel.app";
+const SITE_URL = "https://arbaz-portfolio-kappa.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
